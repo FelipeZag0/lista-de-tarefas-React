@@ -1,6 +1,3 @@
-Claro, aqui está o arquivo `README.md` completo para o seu projeto de **Reading Journal**:
-
-```markdown
 # Reading Journal - Fase 1
 
 ## Descrição
