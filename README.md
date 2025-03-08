@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+Claro, aqui está o arquivo `README.md` completo para o seu projeto de **Reading Journal**:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Reading Journal - Fase 1
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+Este projeto é uma aplicação simples de CRUD (Create, Read, Update, Delete) para um "Reading Journal", ou seja, um inventário de livros lidos. Ele foi desenvolvido como parte da disciplina de Desenvolvimento de Sistemas Frontend do curso de Análise e Desenvolvimento de Sistemas. A aplicação permite ao usuário adicionar, editar, excluir e visualizar livros registrados no sistema.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- React Router DOM
+- Hooks (useState, useEffect)
+- CSS para estilização
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+1. **Cadastro de Livros:**
+   - O usuário pode adicionar um novo livro fornecendo as informações de Título, Autor(a), Gênero e Ano.
+   
+2. **Listagem de Livros:**
+   - A lista de livros exibirá os dados cadastrados com a possibilidade de edição e exclusão.
+   
+3. **Edição de Livros:**
+   - O usuário pode editar as informações de um livro já registrado.
+   
+4. **Exclusão de Livros:**
+   - O usuário pode excluir livros da lista.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Validação de Formulário:**
+   - O formulário de cadastro garante que todos os campos sejam preenchidos antes de permitir o envio.
 
-### `npm run build`
+## Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Componentes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **BookList**: Componente que exibe a lista de livros cadastrados.
+- **BookForm**: Componente que contém o formulário para cadastro e edição de livros.
+- **NavBar**: Componente de navegação da aplicação.
+- **Footer**: Componente que exibe o rodapé da página.
+- **Pages**:
+  - **HomePage**: Página inicial da aplicação.
+  - **AboutPage**: Página com informações sobre o projeto.
+  - **AddBookPage**: Página para adicionar um novo livro.
+  - **BooksPage**: Página que exibe a lista de livros com opções de editar e excluir.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como Executar o Projeto
 
-### `npm run eject`
+1. Clone este repositório para a sua máquina local:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+   
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd seu-repositorio
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Abra o navegador e acesse a aplicação em:
+   ```
+   http://localhost:3000
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Componentes e Funções
 
-## Learn More
+- **BookList**: Exibe a lista de livros com título, autor, gênero e data. Permite editar e excluir livros.
+- **BookForm**: Formulário para inserir um novo livro ou editar um livro existente. Exige preenchimento de todos os campos antes de permitir o envio.
+- **NavBar**: Barra de navegação com links para a página inicial, sobre, cadastro de livros e lista de livros.
+- **Footer**: Exibe o nome do desenvolvedor no rodapé da página.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Capturas de Tela
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Página Inicial](./screenshots/home.png)
+![Cadastro de Livro](./screenshots/addBook.png)
+![Lista de Livros](./screenshots/booksList.png)
 
-### Code Splitting
+## Considerações Finais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este projeto foi uma ótima oportunidade de aplicar conhecimentos de React e desenvolvimento frontend. Fico aberto a sugestões de melhorias e contribuições. Obrigado por conferir!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **Felipe Zago**.
+```
